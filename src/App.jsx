@@ -4,6 +4,8 @@ import Highlights from "./components/Highlights";
 import "./App.css";
 import Model from "./components/Model";
 import Features from "./components/Features";
+import HowItWorks from "./components/HowItWorks";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Highlights />
       <Model />
       <Features />
+      <HowItWorks />
+      <Footer />
     </main>
   );
 }
