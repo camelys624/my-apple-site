@@ -36,7 +36,7 @@ const Model = () => {
   useEffect(() => {
     if (size === "large") {
       animateWithGsapTimeLine(tl, small, smallRotation, "#view1", "#view2", {
-        transform: "translateX(-100%)",
+        transform: "translateX(-100vw)",
         duration: 2,
       });
     }

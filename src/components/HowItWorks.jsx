@@ -24,6 +24,10 @@ const HowItWorks = () => {
       y: 0,
       duration: 1,
       ease: "power2.inOut",
+      stagger: 0.5,
+      scrollTrigger: {
+        start: 'bottom 20%'
+      }
     });
   }, []);
 

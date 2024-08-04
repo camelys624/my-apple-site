@@ -33,6 +33,9 @@ const Features = () => {
       opacity: 1,
       ease: "power2.inOut",
       duration: 1,
+      scrollTrigger: {
+        start: 'bottom 20%'
+      }
     });
   }, []);
 
