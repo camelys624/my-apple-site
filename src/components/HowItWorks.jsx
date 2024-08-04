@@ -29,6 +29,12 @@ const HowItWorks = () => {
         start: 'top center'
       }
     });
+
+    animateWithGsap(videoRef.current, {}, {
+      onEnter: () => {
+        videoRef.current.play()
+      }
+    })
   }, []);
 
   return (
@@ -63,7 +69,6 @@ const HowItWorks = () => {
                 playsInline
                 preload="none"
                 muted
-                autoPlay
                 ref={videoRef}
               >
                 <source src={frameVideo} type="video/mp4" />
